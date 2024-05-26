@@ -1,5 +1,4 @@
 const Traits = ({ traits }) => {
-  console.log("traits", traits);
   return (
     <div>
       <ul>

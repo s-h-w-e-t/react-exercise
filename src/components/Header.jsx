@@ -1,7 +1,9 @@
+import { copy } from "../copy";
+
 const Header = () => {
   return (
     <div className="header">
-      <h2>Welcome to Hogwarts!</h2>
+      <h2>{copy.headerText}</h2>
     </div>
   );
 };

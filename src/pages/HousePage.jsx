@@ -4,7 +4,7 @@ import { HouseInfo } from "../components";
 const HousePage = () => {
   const { houseName } = useParams();
   return (
-    <div className="">
+    <div>
       <HouseInfo houseName={houseName} />
     </div>
   );
