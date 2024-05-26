@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import { copy } from "../copy";
 
 const ErrorPage = () => {
   return (
     <div className="error-block">
-      404 Error Page not found!
+      {copy.notFoundError}
       <Link to="/" className="link-style">
         Go to HomePage
       </Link>

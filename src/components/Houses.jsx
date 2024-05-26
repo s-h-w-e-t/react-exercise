@@ -1,12 +1,13 @@
 import { useContext } from "react";
 import { HouseContext } from "../App";
 import { Link } from "react-router-dom";
+import { copy } from "../copy";
 
 const Houses = () => {
   const houseInfo = useContext(HouseContext);
-  console.log("wizardHouses", houseInfo);
   return (
     <div className="houses">
+      <div className="house-disp">{copy.selectHouse}</div>
       {houseInfo.length > 0 &&
         houseInfo.map((house) => {
           return (

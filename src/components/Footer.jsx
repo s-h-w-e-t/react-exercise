@@ -1,7 +1,9 @@
+import { copy } from "../copy";
+
 const Footer = () => {
   return (
     <div className="footer">
-      <h2>© 2024 Shweta Chauhan</h2>
+      <h2>{copy.footerText}</h2>
     </div>
   );
 };

@@ -1,7 +1,37 @@
+/*Classes*/
+
 .main {
   max-width: 1000px;
+  display: flex;
+  flex-direction: column;
   margin: auto;
-  height: 90vh;
+  height: 95vh;
+  overflow: hidden;
+}
+
+.header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  justify-content: center;
+  display: flex;
+  color: bisque;
+  font-size: 50px;
+  margin-bottom: 20px;
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.content {
+  justify-content: center;
+  display: flex;
+}
+
+.footer {
+  justify-content: center;
+  display: flex;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: auto;
 }
 
 .house-display {
@@ -16,9 +46,11 @@
   color: darkslategrey;
 }
 
-.error-block {
-  color: red;
-  font-size: 30px;
+.house-disp {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .link-style {
@@ -31,25 +63,23 @@
   text-align: center;
 }
 
-.header {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  justify-content: center;
-  display: flex;
-  color: bisque;
-  font-size: 50px;
+.loader-class {
+  border: 5px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
 }
 
-.footer {
-  justify-content: center;
-  display: flex;
-  font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+.error-block {
+  color: red;
+  font-size: 30px;
 }
 
-.content {
-  justify-content: center;
-  display: flex;
-}
+/*Elements*/
 
 th,
 td {
@@ -60,11 +90,6 @@ td {
   width: 100px;
 }
 
-th {
-  background-color: bisque;
-  color: darkslategrey;
-}
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -73,4 +98,19 @@ ul {
 
 a {
   text-decoration: none;
+  color: darkslategrey;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+th {
+  background-color: bisque;
+  color: darkslategrey;
 }
