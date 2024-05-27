@@ -1,14 +1,14 @@
-<u>**Project Name** : World of Hogwarts</u>
+# **Project Name** : World of Hogwarts
 
-**Tech stack** :
+## **Tech stack** :
 
 Javascript,
 ReactJs,
 Jest
 
-To start the application run -
+## To start the application run -
   
-  **npm start**
+  _**npm start**_
 
 - This project gets data from public api - https://wizard-world-api.herokuapp.com/Houses
 
@@ -24,7 +24,7 @@ To start the application run -
 When api returns 404
 When User gets to wrong page or error page while browsing
 
-**Project screenshots :**
+## **Project screenshots :**
 
 <img width="500" alt="Screenshot 2024-05-27 at 1 19 20 PM" src="https://github.com/s-h-w-e-t/react-exercise/assets/86113158/1d98b0aa-e1b3-4b86-90e3-5590f1286e2f">
 
