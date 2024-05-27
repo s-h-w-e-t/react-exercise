@@ -1,4 +1,4 @@
-**Project Name** : World of Hogwarts
+<u>**Project Name** : World of Hogwarts</u>
 
 **Tech stack** :
 
