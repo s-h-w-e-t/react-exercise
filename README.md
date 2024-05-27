@@ -4,6 +4,8 @@
 
 Javascript,
 ReactJs,
+scss for styling,
+html,
 Jest
 
 ## To start the application : 
