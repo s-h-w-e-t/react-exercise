@@ -25,8 +25,7 @@ Jest
 - In information table, user can select traits to show and hide traits.
 
 - Error Handling :
-When api returns 404
-When User gets to wrong page or error page while browsing
+When api returns 404, when User gets to wrong page or error page while browsing
 
 ## **Project screenshots :**
 
