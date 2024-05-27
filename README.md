@@ -1,9 +1,11 @@
 Project Name : World of Hogwarts
 
 Tech stack :
-Javascript
-ReactJs
+
+Javascript,
+ReactJs,
 Jest
+
 This project gets data from public api - https://wizard-world-api.herokuapp.com/Houses
 
 A loader is displayed when data from api is fetched.
