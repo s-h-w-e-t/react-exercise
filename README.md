@@ -6,9 +6,11 @@ Javascript,
 ReactJs,
 Jest
 
-## To start the application run -
+## To start the application : 
   
   _**npm start**_
+
+## About the project -
 
 - This project gets data from public api - https://wizard-world-api.herokuapp.com/Houses
 
