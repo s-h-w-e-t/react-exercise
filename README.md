@@ -1,18 +1,24 @@
 Project Name : World of Hogwarts
-Tech stack : 
-  Javascript
-  ReactJs
-  Jest
-This project gets data from public api - https://wizard-world-api.herokuapp.com/Houses
-A loader is displayed when data from api is fetched.
-House Details are returned and house names are displayed.
-User can select one house to get house info.
-In information table, user can select traits to show and hide traits.
-Error Handling -
-  When api returns 404
-  When User gets to wrong page or error page while browsing
 
-Project screenshots : 
+Tech stack :
+Javascript
+ReactJs
+Jest
+This project gets data from public api - https://wizard-world-api.herokuapp.com/Houses
+
+A loader is displayed when data from api is fetched.
+
+House Details are returned and house names are displayed.
+
+User can select one house to get house info.
+
+In information table, user can select traits to show and hide traits.
+
+Error Handling -
+When api returns 404
+When User gets to wrong page or error page while browsing
+
+Project screenshots :
 
 <img width="500" alt="Screenshot 2024-05-27 at 1 19 20 PM" src="https://github.com/s-h-w-e-t/react-exercise/assets/86113158/1d98b0aa-e1b3-4b86-90e3-5590f1286e2f">
 <img width="500" alt="Screenshot 2024-05-27 at 1 19 34 PM" src="https://github.com/s-h-w-e-t/react-exercise/assets/86113158/28529d05-bb3a-4b23-92b6-17b68850252d">
