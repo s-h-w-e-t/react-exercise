@@ -1,6 +1,4 @@
-# **Project Name** : 
-
-World of Hogwarts
+# **World of Hogwarts**
 
 ## **Tech stack** :
 
