@@ -6,6 +6,10 @@ Javascript,
 ReactJs,
 Jest
 
+To start the application run -
+  
+  npm start
+
 This project gets data from public api - https://wizard-world-api.herokuapp.com/Houses
 
 A loader is displayed when data from api is fetched.
